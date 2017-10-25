@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+/* ASIDE */
+
+aside {
+  width: 20%;
+  height: 100%;
+}
+
+.aside-title {
+  background-color: #61797c;
+  height: 20%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside-title-text {
+  font-size: 110px;
+}
+
+.aside-title-text-squared {
+  font-size: 40px;
+  margin-bottom: 100px;
+  text-transform: lowercase;
+}
+
+.aside-nav {
+  background-color: #4f6367;
+  color: #c9c3c3;
+  height: 80%;
+  padding-left: 25px;
+  font-size: 30px;
+}
+
+.aside-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: : center;
+}
+
+.aside-nav-list-item {
+  border-bottom: 2px solid #c9c3c3;
+  padding: 20px 0 20px 0;
+  width: 85%;
+}
+
+.aside-nav-list-item:hover {
+  background-color: #c9c3c3;
+  color: #4f6367;
+}
+
+#last-nav-list-item {
+  border: none;
+}
+
+main {
+  background-color: #262626;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #abb2b2;
+}
+
+.recent-workout-title {
+  font-size: 40px;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.recent-workout-container {
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.workout-duration-green,
+.workout-distance-green {
+  margin-top: 20px;
+  border: 13px #7a9e84 solid;
+  text-align: center;
+  font-size: 50px;
+  padding: 5px 43px 5px 43px;
+}
+
+.workout-duration-blue,
+.workout-distance-blue {
+  margin-top: 20px;
+  border: 13px #7a9e9f solid;
+  text-align: center;
+  font-size: 50px;
+  padding: 5px 43px 5px 43px;
+}
+
+.workout-duration-light-blue,
+.workout-distance-light-blue {
+  margin-top: 20px;
+  border: 13px #a8bab9 solid;
+  text-align: center;
+  font-size: 50px;
+  padding: 5px 43px 5px 43px;
+}
+
+.swim-container {
+  height: 280px;
+  background-image: url("./assets/images/quarter-circle-green-with-swim.svg");
+  background-repeat: no-repeat;
+}
+
+.swim-container:hover {
+  height: 280px;
+  background-image: url("./assets/images/quarter-circle-green-with-swim-hover.svg");
+  background-repeat: no-repeat;
+}
+
+.bike-container {
+  height: 280px;
+  background-image: url("./assets/images/quarter-circle-blue-with-bike.svg");
+  background-repeat: no-repeat;
+}
+
+.bike-container:hover {
+  height: 280px;
+  background-image: url("./assets/images/quarter-circle-blue-with-bike-hover.svg");
+  background-repeat: no-repeat;
+}
+
+.run-container {
+  height: 280px;
+  background-image: url("./assets/images/quarter-circle-light-blue-with-run.svg");
+  background-repeat: no-repeat;
+}
+
+.run-container:hover {
+  height: 280px;
+  background-image: url("./assets/images/quarter-circle-light-blue-with-run-hover.svg");
+  background-repeat: no-repeat;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  color: #61797c;
+  margin: 0 50px 50px 0;
+  font-size: 30px;
+  text-transform: lowercase;
+}
+
+.semi-circle-icon {
+  height: 320px;
+}
