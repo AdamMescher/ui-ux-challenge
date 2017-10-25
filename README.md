@@ -1,4 +1,4 @@
-[Live on GitHub Pages](/https://adammescher.github.io/ui-ux-challenge/)
+[Live on GitHub Pages](https://adammescher.github.io/ui-ux-challenge/)
 
 ### Original
 
