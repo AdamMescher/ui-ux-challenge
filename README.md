@@ -14,6 +14,6 @@ This project was an exercise to take an image of a fitness dashboard given to us
 
 ## Authors
 
-* **Adam Mescher** [Github](https://github.com/AdamMescher)
-* **Sam Singer** [Github](https://github.com/Cache123)
+* **Adam Mescher** - [Github](https://github.com/AdamMescher)
+* **Sam Singer** - [Github](https://github.com/Cache123)
 
