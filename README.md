@@ -1,6 +1,8 @@
-[Live on GitHub Pages](https://adammescher.github.io/ui-ux-challenge/)
+## UI/UX CHALLENGE
 
 This project was an exercise to take an image of a fitness dashboard given to us by a classmate and recreate it as accurately as possible in 2 hours. 
+
+[Live on GitHub Pages](https://adammescher.github.io/ui-ux-challenge/)
 
 ### Original
 
